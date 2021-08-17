@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+   
+
+}
+body{
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+}
+.card{
+    width: 307px;
+    height: 470px;
+    background-color: #E28625;
+    border-radius: 8px;
+    padding: 35px;
+}
+.card-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.315);
+    padding: 15px;
+}
+.card-title h2{
+    width: 101px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Big Shoulders Display;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+}
+.card-post{
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.button{
+    width: 200px;
+    height: 50px; 
+    margin-top: 60px;
+}
+.button a{
+    background: #F2F2F2;
+    align-items: center;
+    color:#E28625;
+    text-decoration: none;    
+    font-family: Lexend Deca;
+    font-size: 15px;
+    line-height: 25px;
+    border: 2px solid #E28625;
+    padding: 12px 32px 12px 32px;
+    border-radius: 25px;
+}
+.button a:hover{
+    color: #FFFFFF;
+    background-color: #E28625;
+    border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 25px
+}
+/* -----------------card-2-------- */
+.card-2{
+    width: 307px;
+    height: 470px;
+    background: #006971;
+    border-radius: 8px;
+    padding: 35px;
+}
+.card-2>.button a{
+    background: #F2F2F2;
+    align-items: center;
+    color:#006971;
+    text-decoration: none;    
+    font-family: Lexend Deca;
+    font-size: 15px;
+    line-height: 25px;
+    border: 2px solid #006971;
+    padding: 12px 32px 12px 32px;
+    border-radius: 25px;
+}
+.card-2>.button a:hover{
+    color: #FFFFFF;
+    background-color: #006971;
+    border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 25px
+}
+
+
+/* -----------------card-3-------- */
+.card-3{
+    width: 307px;
+    height: 470px;
+    background: #004140;
+    border-radius: 8px;
+    padding: 35px;
+}
+.card-3>.button a{
+    background: #F2F2F2;
+    align-items: center;
+    color:#006971;
+    text-decoration: none;    
+    font-family: Lexend Deca;
+    font-size: 15px;
+    line-height: 25px;
+    border: 2px solid #004140;
+    padding: 12px 32px 12px 32px;
+    border-radius: 25px;
+}
+.card-3>.button a:hover{
+    color: #FFFFFF;
+    background-color: #004140;
+    border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 25px
+}
